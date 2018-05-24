@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1497982575 source:f:\educative\c++\proiect\main.c
+	"functions.h"
+
+1497982544 source:f:\educative\c++\proiect\add.c
+	"functions.h"
+
+1497984282 f:\educative\c++\proiect\functions.h
+	<stdio.h>
+
+1497982582 source:f:\educative\c++\proiect\matmult.c
+	"functions.h"
+
+1497982528 source:f:\educative\c++\proiect\readmat.c
+	"functions.h"
+
+1497981234 source:f:\educative\c++\proiect\scalarmult.c
+	"functions.h"
+
+1497984054 source:f:\educative\c++\proiect\subtract.c
+	"functions.h"
+
+1497980534 source:f:\educative\c++\proiect\transpose.c
+	"functions.h"
+
+1497982605 source:f:\educative\c++\proiect\printmat.c
+	"functions.h"
+
+1497965156 source:f:\educative\c++\proiect\resetmat.c
+	"functions.h"
+
+1497993267 source:f:\educative\c++\proiect\source code\add.c
+	"functions.h"
+
+1497993725 f:\educative\c++\proiect\source code\functions.h
+	<stdio.h>
+
+1497993626 source:f:\educative\c++\proiect\source code\main.c
+	"functions.h"
+
+1497993419 source:f:\educative\c++\proiect\source code\matmult.c
+	"functions.h"
+
+1497993623 source:f:\educative\c++\proiect\source code\printmat.c
+	"functions.h"
+
+1497993451 source:f:\educative\c++\proiect\source code\readmat.c
+	"functions.h"
+
+1497993507 source:f:\educative\c++\proiect\source code\scalarmult.c
+	"functions.h"
+
+1497993624 source:f:\educative\c++\proiect\source code\subtract.c
+	"functions.h"
+

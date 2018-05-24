@@ -1,0 +1,45 @@
+\hypertarget{mat_mult_8c}{}\section{F\+:/educative/\+C++/proiect/\+Source code/mat\+Mult.c File Reference}
+\label{mat_mult_8c}\index{F\+:/educative/\+C++/proiect/\+Source code/mat\+Mult.\+c@{F\+:/educative/\+C++/proiect/\+Source code/mat\+Mult.\+c}}
+
+
+Function mat\+Mult is used to multiply the 2 matrices Created by Preda Iulian.  
+
+
+{\ttfamily \#include \char`\"{}functions.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{mat_mult_8c_aba0dacb06b1cbf615f60954ad802188f}{mat\+Mult} (int \hyperlink{functions_8h_ac802b4eb75bfd2af185a2df74d9d29d6}{len1}, int \hyperlink{functions_8h_aa89502d8312932e4d99ee1b14a96d83b}{mat1}\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]}, int \hyperlink{functions_8h_adcd34ec17092f106027386f3fdb96ec2}{len2}, int \hyperlink{functions_8h_aaa65144be3c9f4299e579c7ce8589419}{mat2}\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]}, int \hyperlink{functions_8h_a11934231eee2bf2af1412250b9abae93}{res\+Mat}\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Function mat\+Mult is used to multiply the 2 matrices Created by Preda Iulian. 
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{mat_mult_8c_aba0dacb06b1cbf615f60954ad802188f}\label{mat_mult_8c_aba0dacb06b1cbf615f60954ad802188f}} 
+\index{mat\+Mult.\+c@{mat\+Mult.\+c}!mat\+Mult@{mat\+Mult}}
+\index{mat\+Mult@{mat\+Mult}!mat\+Mult.\+c@{mat\+Mult.\+c}}
+\subsubsection{\texorpdfstring{mat\+Mult()}{matMult()}}
+{\footnotesize\ttfamily int mat\+Mult (\begin{DoxyParamCaption}\item[{int}]{len1,  }\item[{int}]{mat1\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]},  }\item[{int}]{len2,  }\item[{int}]{mat2\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]},  }\item[{int}]{res\+Mat\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+the first thing we need to do is to check that the 2 matrices have sizes that allow multiplication(no\+Cols1 = no\+Rows2)
+
+now we need to determine the size of the resulting matrix
+
+we compute the value of the current element
+
+now we need to check if the current element, given by row1 and col is in the first matrix
+
+now we check if it is in the second matrix given by row2 and col
+
+we add to the current sum the product of the values of the 2 elements
+
+we add 1 to the size of the result matrix if the sum is != 0
+
+finally, we compute the actual multiplication 
+
+Definition at line 18 of file mat\+Mult.\+c.
+

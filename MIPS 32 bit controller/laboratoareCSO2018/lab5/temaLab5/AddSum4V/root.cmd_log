@@ -1,0 +1,4 @@
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab5/AddSum4V/root.sch" root.vhf
+xst -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab5/AddSum4V/AddSum4V.ise" -intstyle ise -ifn root.xst -ofn root.syr
+xst -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab5/AddSum4V/AddSum4V.ise" -intstyle ise -ifn root.xst -ofn root.syr
+xst -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab5/AddSum4V/AddSum4V.ise" -intstyle ise -ifn root.xst -ofn root.syr

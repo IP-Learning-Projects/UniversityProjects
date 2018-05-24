@@ -1,0 +1,7 @@
+V3 8
+FL D:/ce21b/sum2g/sum2g.vhd 2018/03/01.09:07:44 J.40
+EN work/sum2g 1519888358 FL D:/ce21b/sum2g/sum2g.vhd PB ieee/std_logic_1164 1192821031 \
+      PH ieee/NUMERIC_STD 1192821033 LB UNISIM PH unisim/VCOMPONENTS 1194566982
+AR work/sum2g/BEHAVIORAL 1519888359 \
+      FL D:/ce21b/sum2g/sum2g.vhd EN work/sum2g 1519888358 CP XOR3 CP AND2 CP OR3
+FL D:/ce21b/sum2g/sum2g.vhf 2018/03/01.09:07:44 J.40

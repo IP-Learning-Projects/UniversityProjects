@@ -1,0 +1,9 @@
+V3 10
+FL C:/Users/user/Desktop/sum1g/sum1g.vhf 2018/03/01.08:05:05 J.40
+FL $XILINX/sum1g/sum1g.vhd 2018/02/28.17:26:53 J.40
+FL $XILINX/sum1g/sum1g.vhf 2018/02/28.17:26:53 J.40
+FL D:/ce21b/sum1g/sum1g.vhd 2018/03/01.08:05:05 J.40
+EN work/sum1g 1519886634 FL D:/ce21b/sum1g/sum1g.vhd PB ieee/std_logic_1164 1192821031 \
+      PH ieee/NUMERIC_STD 1192821033 LB UNISIM PH unisim/VCOMPONENTS 1194566982
+AR work/sum1g/BEHAVIORAL 1519886635 \
+      FL D:/ce21b/sum1g/sum1g.vhd EN work/sum1g 1519886634 CP XOR3 CP AND2 CP OR3

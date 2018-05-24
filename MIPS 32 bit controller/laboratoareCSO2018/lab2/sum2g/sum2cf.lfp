@@ -1,0 +1,6 @@
+# begin LFP file D:\ce21b\sum2g\sum2cf.lfp
+designfile sum2g.vhd
+parttype xc3s400-4-ft256
+bus_delimiter 0;
+set_busdelim_onsave 1;
+INST "sum2g" COLOR=15  ;

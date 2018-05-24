@@ -1,0 +1,76 @@
+\hypertarget{add_8c}{}\section{F\+:/educative/\+C++/proiect/\+Source code/add.c File Reference}
+\label{add_8c}\index{F\+:/educative/\+C++/proiect/\+Source code/add.\+c@{F\+:/educative/\+C++/proiect/\+Source code/add.\+c}}
+
+
+Function add is used to sum the 2 matrices Created by Preda Iulian.  
+
+
+{\ttfamily \#include \char`\"{}functions.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{add_8c_ad508170ee08eb29a20abda230ffe4fe3}{add} (int \hyperlink{functions_8h_ac802b4eb75bfd2af185a2df74d9d29d6}{len1}, int \hyperlink{functions_8h_aa89502d8312932e4d99ee1b14a96d83b}{mat1}\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]}, int \hyperlink{functions_8h_adcd34ec17092f106027386f3fdb96ec2}{len2}, int \hyperlink{functions_8h_aaa65144be3c9f4299e579c7ce8589419}{mat2}\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]}, int \hyperlink{functions_8h_a11934231eee2bf2af1412250b9abae93}{res\+Mat}\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Function add is used to sum the 2 matrices Created by Preda Iulian. 
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{add_8c_ad508170ee08eb29a20abda230ffe4fe3}\label{add_8c_ad508170ee08eb29a20abda230ffe4fe3}} 
+\index{add.\+c@{add.\+c}!add@{add}}
+\index{add@{add}!add.\+c@{add.\+c}}
+\subsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily int add (\begin{DoxyParamCaption}\item[{int}]{len1,  }\item[{int}]{mat1\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]},  }\item[{int}]{len2,  }\item[{int}]{mat2\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]},  }\item[{int}]{res\+Mat\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em it1} & and \\
+\hline
+{\em it2} & are iterators \\
+\hline
+{\em len1} & the lengths of the first matrix after compression \\
+\hline
+{\em mat1\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]}} & represents the first matrix \\
+\hline
+{\em len2} & the lengths of the second matrix after compression \\
+\hline
+{\em mat2\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]}} & represents the second matrix \\
+\hline
+{\em res\+Len} & represents the length of the resulting matrix \\
+\hline
+{\em res\+Mat\mbox{[}1001000\mbox{]}\mbox{[}3\mbox{]}} & represents the resulting matrix \\
+\hline
+{\em no\+Rows1} & represents the number of rows in the first matrix \\
+\hline
+{\em no\+Rows2} & represents the number of rows in the second matrix \\
+\hline
+{\em no\+Cols1} & represents the number of columns in the first matrix \\
+\hline
+{\em no\+Cols2} & represents the number of columns in the second matrix \\
+\hline
+\end{DoxyParams}
+the first thing we need to do is to check that the 2 matrices have the same size, as otherwise we cannot add them
+
+now we need to calculate the resulting matrix first we need to know its size, as it is the sum of the sizes of the other 2 matrices -\/ number of common elements
+
+first we check if they are on the same row
+
+now we check if they are on the same column
+
+we know that we have 2 elements located at the same position now we have to check if their sum if 0 in order to decrease the number of elements by 2(as we need to exclude this element from the new matrix), or not, to decrease it by 1
+
+now we do the addition itself
+
+first we check if the elements of the original matrices are on the same row and if not we just add the current element to the result matrix
+
+now we check if they are on the same column
+
+as they are located as the same position, we add to the resulting matrix their sum
+
+if it is 0 we do not add anything 
+
+Definition at line 19 of file add.\+c.
+

@@ -1,0 +1,17 @@
+V3 8
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab5/AddSum4V/as4v.vhd 2018/03/20.18:58:48 J.40
+EN work/as4v 1521565142 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab5/AddSum4V/as4v.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/as4v/Behavioral 1521565143 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab5/AddSum4V/as4v.vhd \
+      EN work/as4v 1521565142
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab5/AddSum4V/root.vhf 2018/03/20.18:30:53 J.40
+EN work/root 1521564901 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab5/AddSum4V/root.vhf \
+      PB ieee/std_logic_1164 1192821031 PH ieee/NUMERIC_STD 1192821033 LB UNISIM \
+      PH unisim/VCOMPONENTS 1194566982
+AR work/root/BEHAVIORAL 1521564902 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab5/AddSum4V/root.vhf \
+      EN work/root 1521564901 CP as4v

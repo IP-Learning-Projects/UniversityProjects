@@ -1,0 +1,60 @@
+# Reading C:/Modeltech_xe/tcl/vsim/pref.tcl 
+# do {TBW.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package vcomponents
+# -- Compiling entity sum1g
+# -- Compiling architecture behavioral of sum1g
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package vcomponents
+# -- Compiling entity sum4
+# -- Compiling architecture behavioral of sum4
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package vcomponents
+# -- Compiling entity m2_1_mxilinx_as4
+# -- Compiling architecture behavioral of m2_1_mxilinx_as4
+# -- Compiling entity as4
+# -- Compiling architecture behavioral of as4
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vcomponents
+# -- Loading package numeric_std
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity tbw
+# -- Compiling architecture testbench_arch of tbw
+# vsim -lib work -t 1ps TBW 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading unisim.vcomponents
+# Loading ieee.numeric_std(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tbw(testbench_arch)
+# Loading work.as4(behavioral)
+# Loading work.m2_1_mxilinx_as4(behavioral)
+# Loading unisim.and2b1(and2b1_v)
+# Loading unisim.or2(or2_v)
+# Loading unisim.and2(and2_v)
+# Loading unisim.inv(inv_v)
+# Loading work.sum4(behavioral)
+# Loading work.sum1g(behavioral)
+# Loading unisim.xor3(xor3_v)
+# Loading unisim.or3(or3_v)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs

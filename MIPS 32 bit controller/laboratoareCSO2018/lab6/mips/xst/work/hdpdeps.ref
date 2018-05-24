@@ -1,0 +1,41 @@
+V3 20
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/mips.vhf 2018/03/25.12:32:35 J.40
+EN work/mips 1521971078 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/mips.vhf \
+      PB ieee/std_logic_1164 1192821031 PH ieee/NUMERIC_STD 1192821033 LB UNISIM \
+      PH unisim/VCOMPONENTS 1194566982
+AR work/mips/BEHAVIORAL 1521971079 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/mips.vhf \
+      EN work/mips 1521971078 CP MUX2V5 CP PC_Update CP ProgCnt CP ROM32x32
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/MUX2V5.vhd 2018/03/25.12:26:55 J.40
+EN work/MUX2V5 1521970034 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/MUX2V5.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/MUX2V5/Behavioral 1521970035 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/MUX2V5.vhd \
+      EN work/MUX2V5 1521970034
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/PC_Update.vhd 2018/03/25.12:12:55 J.40
+EN work/PC_Update 1521969191 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/PC_Update.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/PC_Update/Behavioral 1521969192 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/PC_Update.vhd \
+      EN work/PC_Update 1521969191
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/ProgCnt.vhd 2018/03/25.12:11:08 J.40
+EN work/ProgCnt 1521969090 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/ProgCnt.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ProgCnt/Behavioral 1521969091 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/ProgCnt.vhd \
+      EN work/ProgCnt 1521969090
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/ROM32x32.vhd 2018/03/25.12:22:15 J.40
+EN work/ROM32x32 1521969805 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/ROM32x32.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ROM32x32/Behavioral 1521969806 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/ROM32x32.vhd \
+      EN work/ROM32x32 1521969805

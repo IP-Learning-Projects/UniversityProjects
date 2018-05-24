@@ -1,0 +1,28 @@
+V3 27
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab3/as4/sum1g.vhf 2018/03/03.13:16:40 J.40
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab3/as4/sum4.vhd 2018/03/03.13:18:57 J.40
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab3/as4/sum4.vhf 2018/03/03.13:21:45 J.40
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/LAB4/as4/as4.vhf 2018/03/11.14:22:08 J.40
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/LAB4/as4/sum1g.vhf 2018/03/11.14:12:47 J.40
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/LAB4/as4/sum4.vhf 2018/03/11.14:12:48 J.40
+FL H:/LAB4/as4/as4.vhf 2018/03/11.15:01:30 J.40
+EN work/M2_1_MXILINX_as4 1520773304 FL H:/LAB4/as4/as4.vhf PB ieee/std_logic_1164 1192821031 \
+      PH ieee/NUMERIC_STD 1192821033 LB UNISIM PH unisim/VCOMPONENTS 1194566982
+AR work/M2_1_MXILINX_as4/BEHAVIORAL 1520773305 \
+      FL H:/LAB4/as4/as4.vhf EN work/M2_1_MXILINX_as4 1520773304 CP AND2B1 CP OR2 \
+      CP AND2
+EN work/as4 1520773306 FL H:/LAB4/as4/as4.vhf PB ieee/std_logic_1164 1192821031 \
+      PH ieee/NUMERIC_STD 1192821033 LB UNISIM PH unisim/VCOMPONENTS 1194566982
+AR work/as4/BEHAVIORAL 1520773307 \
+      FL H:/LAB4/as4/as4.vhf EN work/as4 1520773306 CP M2_1_MXILINX_as4 CP INV \
+      CP sum4
+FL H:/LAB4/as4/sum1g.vhf 2018/03/11.14:12:48 J.40
+EN work/sum1g 1520773300 FL H:/LAB4/as4/sum1g.vhf PB ieee/std_logic_1164 1192821031 \
+      PH ieee/NUMERIC_STD 1192821033 LB UNISIM PH unisim/VCOMPONENTS 1194566982
+AR work/sum1g/BEHAVIORAL 1520773301 \
+      FL H:/LAB4/as4/sum1g.vhf EN work/sum1g 1520773300 CP XOR3 CP AND2 CP OR3
+FL H:/LAB4/as4/sum4.vhf 2018/03/11.15:01:28 J.40
+EN work/sum4 1520773302 FL H:/LAB4/as4/sum4.vhf PB ieee/std_logic_1164 1192821031 \
+      PH ieee/NUMERIC_STD 1192821033 LB UNISIM PH unisim/VCOMPONENTS 1194566982
+AR work/sum4/BEHAVIORAL 1520773303 \
+      FL H:/LAB4/as4/sum4.vhf EN work/sum4 1520773302 CP sum1g

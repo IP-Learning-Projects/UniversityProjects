@@ -1,0 +1,202 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\GabrielaD\Desktop\automatica\labCSO\LAB4\as4
+Eas4
+Z0 w1520773290
+Z1 DPx6 unisim 11 vcomponents 0 22 6Bno5d?=9BlFAj[lAHJHA1
+Z2 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 dC:\Users\GabrielaD\Desktop\automatica\labCSO\lab4\as4
+Z5 8as4.vhf
+Z6 Fas4.vhf
+l0
+L86
+V2EjSoBk?^4a9dcTA?d9UH2
+Z7 OX;C;6.4b;39
+31
+Z8 o-explicit -93 -O0
+Z9 tExplicit 1
+!s100 zRlI0C3Bn`;iGlH3WYzfd3
+Abehavioral
+R1
+R2
+R3
+DEx4 work 3 as4 0 22 2EjSoBk?^4a9dcTA?d9UH2
+l124
+L94
+V8?HP76n@55RE7:B^CREAL2
+!s100 @[^ZBHdQoPdBdH>We7D2S1
+R7
+31
+Z10 Mx3 4 ieee 14 std_logic_1164
+Z11 Mx2 4 ieee 11 numeric_std
+Z12 Mx1 6 unisim 11 vcomponents
+R8
+R9
+Astructure
+Z13 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+DPx9 vital2000 16 vital_primitives 0 22 P<o@__YgakiANKimF[boN3
+DPx7 simprim 8 vpackage 0 22 62<92?H`[OPC[b77DL^6:0
+DPx9 vital2000 12 vital_timing 0 22 S^n>oJ2GS[H5aTKMo9OkE0
+DPx7 simprim 11 vcomponents 0 22 NYkjb^:l?oWklmcJQ6=181
+R3
+DEx4 work 3 as4 0 22 NJTg`H^RhB3eAFUJMzjjQ3
+l87
+L51
+VGSK8PT5ZjCVU7E;nQ9HP33
+R7
+31
+Z14 Mx6 4 ieee 14 std_logic_1164
+Mx5 7 simprim 11 vcomponents
+Mx4 9 vital2000 12 vital_timing
+Mx3 7 simprim 8 vpackage
+Mx2 9 vital2000 16 vital_primitives
+Z15 Mx1 3 std 6 textio
+R8
+R9
+Fnetgen/par/as4_timesim.vhd
+w1520773368
+8netgen/par/as4_timesim.vhd
+!s100 EN<F<c;:Ui3XJ1K`Q>ka[1
+Em2_1_mxilinx_as4
+Z16 w1520773290
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L28
+Vd_Mh]U^>4<`zM4CIY]TPe0
+R7
+31
+R8
+R9
+!s100 <NbU93<=9g7UeYUkdoL@;3
+Abehavioral
+R1
+R2
+R3
+DEx4 work 16 m2_1_mxilinx_as4 0 22 d_Mh]U^>4<`zM4CIY]TPe0
+l60
+L35
+V=4DPoJ^OB`5zT4P<CA_lX3
+!s100 8D?Id4_:T[2@Jd:2XSam[2
+R7
+31
+R10
+R11
+R12
+R8
+R9
+Esum1g
+Z17 w1520770368
+R1
+R2
+R3
+R4
+Z18 8sum1g.vhf
+Z19 Fsum1g.vhf
+l0
+L28
+Vn_2aha_=UiT>Vo^>DJjK^0
+R7
+31
+R8
+R9
+!s100 6^k[?`X?jlR1zSgCjzEBY1
+Abehavioral
+R1
+R2
+R3
+DEx4 work 5 sum1g 0 22 n_2aha_=UiT>Vo^>DJjK^0
+l64
+L36
+VDO^3YWGLBYzj;?N7MeZOA3
+R7
+31
+R10
+R11
+R12
+R8
+R9
+!s100 MZTX5o<=go6SaQ=N]ePjB2
+Esum4
+Z20 w1520773288
+R1
+R2
+R3
+R4
+Z21 8sum4.vhf
+Z22 Fsum4.vhf
+l0
+L28
+V84SdUPFVCjJ;=fGQ]i;>>3
+R7
+31
+R8
+R9
+!s100 ^R4]C3bmlUPLNBY1<l:`E1
+Abehavioral
+R1
+R2
+R3
+DEx4 work 4 sum4 0 22 84SdUPFVCjJ;=fGQ]i;>>3
+l48
+L36
+VKIl17ZN1`^Bm1N>V2fdj@0
+R7
+31
+R10
+R11
+R12
+R8
+R9
+!s100 =l<RHAXW89DNDDa5FA`3z0
+Etbw
+Z23 w1520772002
+Z24 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z25 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R13
+Z26 DPx4 ieee 16 std_logic_textio 0 22 8YS?iX`WD1REQG`ZRYQGB2
+R2
+R3
+R1
+R4
+Z27 8TBW.vhw
+Z28 FTBW.vhw
+l0
+L30
+Vl^ll`_[GN`63[@IIK5RBC2
+!s100 ogllkILG<^b_ZLWjFe_M=2
+R7
+31
+R8
+R9
+Atestbench_arch
+R24
+R25
+R13
+R26
+R2
+R3
+R1
+Z29 DEx4 work 3 tbw 0 22 l^ll`_[GN`63[@IIK5RBC2
+l52
+L33
+Z30 V6AzRbQgaN_JGmeVP<?fU@3
+Z31 !s100 75m>cjCd>f:>2Q=f=elA`3
+R7
+31
+Z32 Mx7 6 unisim 11 vcomponents
+R14
+Z33 Mx5 4 ieee 11 numeric_std
+Z34 Mx4 4 ieee 16 std_logic_textio
+Z35 Mx3 3 std 6 textio
+Z36 Mx2 4 ieee 15 std_logic_arith
+Z37 Mx1 4 ieee 18 std_logic_unsigned
+R8
+R9

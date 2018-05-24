@@ -1,0 +1,11 @@
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab3/as4/sum4.sch" sum4.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab3/as4/sum4.sch" sum4.vhf
+xst -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab3/as4/as4.ise" -intstyle ise -ifn sum4.xst -ofn sum4.syr
+ngdbuild -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab3/as4/as4.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sum4cf.ucf" -p xc3s400-ft256-4 "sum4.ngc" sum4.ngd
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab3/as4/sum4.sch" sum4.vhf
+xst -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab3/as4/as4.ise" -intstyle ise -ifn sum4.xst -ofn sum4.syr
+ngdbuild -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab3/as4/as4.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sum4cf.ucf" -p xc3s400-ft256-4 "sum4.ngc" sum4.ngd
+map -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab3/as4/as4.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o sum4_map.ncd sum4.ngd sum4.pcf
+par -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab3/as4/as4.ise" -w -intstyle ise -ol std -t 1 sum4_map.ncd sum4.ncd sum4.pcf
+trce -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab3/as4/as4.ise" -intstyle ise -e 3 -s 4 -xml sum4 sum4.ncd -o sum4.twr sum4.pcf -ucf sum4cf.ucf
+bitgen -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/lab3/as4/as4.ise" -intstyle ise -f sum4.ut sum4.ncd

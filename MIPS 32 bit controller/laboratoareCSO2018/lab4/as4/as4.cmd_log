@@ -1,0 +1,15 @@
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/GabrielaD/Desktop/automatica/labCSO/LAB4/as4/as4.sch" as4.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/GabrielaD/Desktop/automatica/labCSO/LAB4/as4/as4.sch" as4.vhf
+xst -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/LAB4/as4/as4.ise" -intstyle ise -ifn as4.xst -ofn as4.syr
+ngdbuild -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/LAB4/as4/as4.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sum4cf.ucf" -p xc3s400-ft256-4 "as4.ngc" as4.ngd
+map -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/LAB4/as4/as4.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o as4_map.ncd as4.ngd as4.pcf
+par -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/LAB4/as4/as4.ise" -w -intstyle ise -ol std -t 1 as4_map.ncd as4.ncd as4.pcf
+trce -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/LAB4/as4/as4.ise" -intstyle ise -e 3 -s 4 -xml as4 as4.ncd -o as4.twr as4.pcf -ucf sum4cf.ucf
+netgen -ise "C:/Users/GabrielaD/Desktop/automatica/labCSO/LAB4/as4/as4.ise" -intstyle ise -s 4 -pcf as4.pcf -rpw 100 -tpw 0 -ar Structure -tm as4 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim as4.ncd as4_timesim.vhd
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "H:/LAB4/as4/as4.sch" as4.vhf
+xst -ise "H:/LAB4/as4/as4.ise" -intstyle ise -ifn as4.xst -ofn as4.syr
+ngdbuild -ise "H:/LAB4/as4/as4.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sum4cf.ucf" -p xc3s400-ft256-4 "as4.ngc" as4.ngd
+map -ise "H:/LAB4/as4/as4.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o as4_map.ncd as4.ngd as4.pcf
+par -ise "H:/LAB4/as4/as4.ise" -w -intstyle ise -ol std -t 1 as4_map.ncd as4.ncd as4.pcf
+trce -ise "H:/LAB4/as4/as4.ise" -intstyle ise -e 3 -s 4 -xml as4 as4.ncd -o as4.twr as4.pcf -ucf sum4cf.ucf
+netgen -ise "H:/LAB4/as4/as4.ise" -intstyle ise -s 4 -pcf as4.pcf -rpw 100 -tpw 0 -ar Structure -tm as4 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim as4.ncd as4_timesim.vhd

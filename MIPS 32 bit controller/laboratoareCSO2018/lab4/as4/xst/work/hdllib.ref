@@ -1,0 +1,8 @@
+EN sum1g NULL H:/LAB4/as4/sum1g.vhf sub00/vhpl02 1520773300
+EN m2_1_mxilinx_as4 NULL H:/LAB4/as4/as4.vhf sub00/vhpl04 1520773304
+AR sum1g behavioral H:/LAB4/as4/sum1g.vhf sub00/vhpl03 1520773301
+EN sum4 NULL H:/LAB4/as4/sum4.vhf sub00/vhpl00 1520773302
+AR sum4 behavioral H:/LAB4/as4/sum4.vhf sub00/vhpl01 1520773303
+AR as4 behavioral H:/LAB4/as4/as4.vhf sub00/vhpl07 1520773307
+AR m2_1_mxilinx_as4 behavioral H:/LAB4/as4/as4.vhf sub00/vhpl05 1520773305
+EN as4 NULL H:/LAB4/as4/as4.vhf sub00/vhpl06 1520773306

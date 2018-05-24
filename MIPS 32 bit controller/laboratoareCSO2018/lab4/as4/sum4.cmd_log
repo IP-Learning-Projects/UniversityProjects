@@ -1,0 +1,1 @@
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "H:/LAB4/as4/sum4.sch" sum4.vhf

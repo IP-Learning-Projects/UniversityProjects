@@ -1,0 +1,33 @@
+
+CC=gcc
+
+CFLAGS=-c -Wall
+
+all: result
+
+result: main.o add.o matMult.o printMat.o readMat.o scalarMult.o subtract.o
+	$(CC) main.o factorial.o hello.o -o hello
+
+main.o: main.c
+	$(CC) $(CFLAGS) main.c
+
+add.o: add.c
+	$(CC) $(CFLAGS) add.c
+	
+matMult.o: matMult.c
+	$(CC) $(CFLAGS) matMult.c
+	
+printMat.o: printMat.c
+	$(CC) $(CFLAGS) printMat.c
+	
+readMat.o: readMat.c
+	$(CC) $(CFLAGS) readMat.c
+	
+scalarMult.o: scalarMult.c
+	$(CC) $(CFLAGS) scalarMult.c
+	
+subtract.o: subtract.c
+	$(CC) $(CFLAGS) subtract.c
+	
+clean:
+	rm *o result

@@ -1,0 +1,11 @@
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/ce21b/sum2g/sum2g.sch" sum2g.vhf
+xst -ise "D:/ce21b/sum2g/sum2g.ise" -intstyle ise -ifn sum2g.xst -ofn sum2g.syr
+ngdbuild -ise "D:/ce21b/sum2g/sum2g.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "sum2g.ngc" sum2g.ngd
+map -ise "D:/ce21b/sum2g/sum2g.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o sum2g_map.ncd sum2g.ngd sum2g.pcf
+ngdbuild -ise "D:/ce21b/sum2g/sum2g.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sum2cf.ucf" -p xc3s400-ft256-4 "sum2g.ngc" sum2g.ngd
+ngdbuild -ise "D:/ce21b/sum2g/sum2g.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sum2cf.ucf" -p xc3s400-ft256-4 "sum2g.ngc" sum2g.ngd
+map -ise "D:/ce21b/sum2g/sum2g.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o sum2g_map.ncd sum2g.ngd sum2g.pcf
+par -ise "D:/ce21b/sum2g/sum2g.ise" -w -intstyle ise -ol std -t 1 sum2g_map.ncd sum2g.ncd sum2g.pcf
+trce -ise "D:/ce21b/sum2g/sum2g.ise" -intstyle ise -e 3 -s 4 -xml sum2g sum2g.ncd -o sum2g.twr sum2g.pcf -ucf sum2cf.ucf
+bitgen -ise "D:/ce21b/sum2g/sum2g.ise" -intstyle ise -f sum2g.ut sum2g.ncd
+bitgen -ise "D:/ce21b/sum2g/sum2g.ise" -intstyle ise -f sum2g.ut sum2g.ncd

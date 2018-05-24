@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="2">
+<DesignStatistics TimeStamp="Sun Mar 11 15:02:17 2018"><group name="MiscellaneousStatistics">
+<item name="AVG_LUT_FAN_IN" rev="2">
+<attrib name="value" value="3.625000"/></item>
+<item name="AVG_SIG_FANOUT" rev="2">
+<attrib name="value" value="1.380000"/></item>
+<item name="LUT" rev="2">
+<attrib name="value" value="8"/></item>
+<item name="MAX_SIG_FANOUT" rev="2">
+<attrib name="value" value="2"/></item>
+<item name="PK_NUM_4_INPUT_LUTS" rev="2">
+<attrib name="value" value="8"/></item>
+<item name="PK_NUM_BONDED_IOBS" rev="2">
+<attrib name="value" value="14"/></item>
+<item name="PK_NUM_EQUIV_GATES" rev="2">
+<attrib name="value" value="48"/></item>
+<item name="PK_NUM_JTAG_GATES" rev="2">
+<attrib name="value" value="14"/></item>
+<item name="PK_NUM_SLICELS" rev="2">
+<attrib name="value" value="5"/></item>
+<item name="PK_NUM_SLICES" rev="2">
+<attrib name="value" value="5"/></item>
+<item name="SINGLE_LOAD_SIG" rev="2">
+<attrib name="value" value="5"/></item>
+<item name="TWO_LOAD_SIG" rev="2">
+<attrib name="value" value="3"/></item>
+</group>
+</DesignStatistics>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

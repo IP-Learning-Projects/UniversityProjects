@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------
+Release 9.2.04i Trace 
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx92i\bin\nt\trce.exe -ise D:/ce21b/sum2g/sum2g.ise -intstyle ise -e 3
+-s 4 -xml sum2g sum2g.ncd -o sum2g.twr sum2g.pcf -ucf sum2cf.ucf
+
+Design file:              sum2g.ncd
+Physical constraint file: sum2g.pcf
+Device,package,speed:     xc3s400,ft256,-4 (PRODUCTION 1.39 2007-10-19)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A0             |Cout           |   10.632|
+A0             |S0             |    9.702|
+A0             |S1             |   11.111|
+A1             |Cout           |    9.632|
+A1             |S1             |   10.181|
+B0             |Cout           |    9.666|
+B0             |S0             |    8.712|
+B0             |S1             |   10.145|
+B1             |Cout           |    9.385|
+B1             |S1             |    9.858|
+Cin            |Cout           |    9.808|
+Cin            |S0             |    9.191|
+Cin            |S1             |   10.287|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Mar 01 09:13:07 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 151 MB
+
+
+

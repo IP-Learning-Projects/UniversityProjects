@@ -1,0 +1,10 @@
+AR rom32x32 behavioral C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/ROM32x32.vhd sub00/vhpl05 1521969806
+EN mux2v5 NULL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/MUX2V5.vhd sub00/vhpl06 1521970034
+EN rom32x32 NULL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/ROM32x32.vhd sub00/vhpl04 1521969805
+EN pc_update NULL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/PC_Update.vhd sub00/vhpl02 1521969191
+AR mips behavioral C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/mips.vhf sub00/vhpl09 1521971079
+EN progcnt NULL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/ProgCnt.vhd sub00/vhpl00 1521969090
+EN mips NULL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/mips.vhf sub00/vhpl08 1521971078
+AR progcnt behavioral C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/ProgCnt.vhd sub00/vhpl01 1521969091
+AR mux2v5 behavioral C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/MUX2V5.vhd sub00/vhpl07 1521970035
+AR pc_update behavioral C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/PC_Update.vhd sub00/vhpl03 1521969192

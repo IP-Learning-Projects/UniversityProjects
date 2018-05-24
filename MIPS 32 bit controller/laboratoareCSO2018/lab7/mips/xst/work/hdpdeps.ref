@@ -1,0 +1,87 @@
+V3 45
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/mips.vhf 2018/03/25.12:32:35 J.40
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/MUX2V5.vhd 2018/03/25.12:26:55 J.40
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/PC_Update.vhd 2018/03/25.12:12:55 J.40
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/ProgCnt.vhd 2018/03/25.12:11:08 J.40
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab6/mips/ROM32x32.vhd 2018/03/25.12:22:15 J.40
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/ALU.vhd 2018/04/08.17:23:10 J.40
+EN work/ALU 1523199182 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/ALU.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ALU/Behavioral 1523199183 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/ALU.vhd \
+      EN work/ALU 1523199182
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/ctrl.vhd 2018/04/08.17:47:00 J.40
+EN work/ctrl 1523199184 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/ctrl.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ctrl/Behavioral 1523199185 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/ctrl.vhd \
+      EN work/ctrl 1523199184
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/DataMem.vhd 2015/11/22.21:27:42 J.40
+EN work/DataMem 1523199186 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/DataMem.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/DataMem/Behavioral 1523199187 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/DataMem.vhd \
+      EN work/DataMem 1523199186
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/File_Regs.vhd 2018/04/08.17:09:41 J.40
+EN work/File_Regs 1523199196 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/File_Regs.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/File_Regs/Behavioral 1523199197 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/File_Regs.vhd \
+      EN work/File_Regs 1523199196
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/mips.vhf 2018/04/08.17:52:59 J.40
+EN work/mips 1523199200 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/mips.vhf \
+      PB ieee/std_logic_1164 1192821031 PH ieee/NUMERIC_STD 1192821033 LB UNISIM \
+      PH unisim/VCOMPONENTS 1194566982
+AR work/mips/BEHAVIORAL 1523199201 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/mips.vhf \
+      EN work/mips 1523199200 CP ALU CP ctrl CP DataMem CP MUX2V32 CP MUX2V5 \
+      CP PC_Update CP ProgCnt CP File_Regs CP ROM32x32
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/MUX2V32.vhd 2018/04/08.17:28:34 J.40
+EN work/MUX2V32 1523199188 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/MUX2V32.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/MUX2V32/Behavioral 1523199189 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/MUX2V32.vhd \
+      EN work/MUX2V32 1523199188
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/MUX2V5.vhd 2018/03/25.12:26:55 J.40
+EN work/MUX2V5 1523199190 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/MUX2V5.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/MUX2V5/Behavioral 1523199191 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/MUX2V5.vhd \
+      EN work/MUX2V5 1523199190
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/PC_Update.vhd 2018/03/25.12:12:55 J.40
+EN work/PC_Update 1523199192 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/PC_Update.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/PC_Update/Behavioral 1523199193 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/PC_Update.vhd \
+      EN work/PC_Update 1523199192
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/ProgCnt.vhd 2018/03/25.12:11:08 J.40
+EN work/ProgCnt 1523199194 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/ProgCnt.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ProgCnt/Behavioral 1523199195 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/ProgCnt.vhd \
+      EN work/ProgCnt 1523199194
+FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/ROM32x32.vhd 2018/03/25.12:22:15 J.40
+EN work/ROM32x32 1523199198 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/ROM32x32.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ROM32x32/Behavioral 1523199199 \
+      FL C:/Users/GabrielaD/Desktop/automatica/labCSO/lab7/mips/ROM32x32.vhd \
+      EN work/ROM32x32 1523199198

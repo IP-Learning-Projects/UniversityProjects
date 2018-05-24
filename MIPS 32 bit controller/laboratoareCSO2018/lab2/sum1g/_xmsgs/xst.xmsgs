@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/sum1g</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx92i/sum1g/sum1g.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/user/Desktop/sum1g/sum1g.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/sum1g/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Xilinx92i/sum1g/sum1g.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/user/Desktop/sum1g/sum1g.vhf</arg>&quot;.
+</msg>
+
+</messages>
+

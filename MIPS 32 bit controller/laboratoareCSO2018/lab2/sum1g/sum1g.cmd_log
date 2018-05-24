@@ -1,0 +1,16 @@
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Xilinx92i/sum1g/sum1g.sch" sum1g.vhf
+xst -ise "C:/Xilinx92i/sum1g/sum1g.ise" -intstyle ise -ifn sum1g.xst -ofn sum1g.syr
+ngdbuild -ise "C:/Xilinx92i/sum1g/sum1g.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "sum1g.ngc" sum1g.ngd
+map -ise "C:/Xilinx92i/sum1g/sum1g.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o sum1g_map.ncd sum1g.ngd sum1g.pcf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Users/user/Desktop/sum1g/sum1g.sch" sum1g.vhf
+xst -ise "C:/Users/user/Desktop/sum1g/sum1g.ise" -intstyle ise -ifn sum1g.xst -ofn sum1g.syr
+ngdbuild -ise "C:/Users/user/Desktop/sum1g/sum1g.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sum1cf.ucf" -p xc3s400-ft256-4 "sum1g.ngc" sum1g.ngd
+map -ise "C:/Users/user/Desktop/sum1g/sum1g.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o sum1g_map.ncd sum1g.ngd sum1g.pcf
+par -ise "C:/Users/user/Desktop/sum1g/sum1g.ise" -w -intstyle ise -ol std -t 1 sum1g_map.ncd sum1g.ncd sum1g.pcf
+trce -ise "C:/Users/user/Desktop/sum1g/sum1g.ise" -intstyle ise -e 3 -s 4 -xml sum1g sum1g.ncd -o sum1g.twr sum1g.pcf -ucf sum1cf.ucf
+bitgen -ise "C:/Users/user/Desktop/sum1g/sum1g.ise" -intstyle ise -f sum1g.ut sum1g.ncd
+ngdbuild -ise "D:/ce21b/sum1g/sum1g.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sum1cf.ucf" -p xc3s400-ft256-4 "sum1g.ngc" sum1g.ngd
+map -ise "D:/ce21b/sum1g/sum1g.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o sum1g_map.ncd sum1g.ngd sum1g.pcf
+par -ise "D:/ce21b/sum1g/sum1g.ise" -w -intstyle ise -ol std -t 1 sum1g_map.ncd sum1g.ncd sum1g.pcf
+trce -ise "D:/ce21b/sum1g/sum1g.ise" -intstyle ise -e 3 -s 4 -xml sum1g sum1g.ncd -o sum1g.twr sum1g.pcf -ucf sum1cf.ucf
+bitgen -ise "D:/ce21b/sum1g/sum1g.ise" -intstyle ise -f sum1g.ut sum1g.ncd

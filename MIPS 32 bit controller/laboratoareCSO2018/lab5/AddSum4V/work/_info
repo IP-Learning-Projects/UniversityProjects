@@ -1,0 +1,73 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\GabrielaD\Desktop\automatica\labCSO\lab5\AddSum4V
+Eas4v
+Z1 w1521565128
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z3 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z4 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 8as4v.vhd
+Z6 Fas4v.vhd
+l0
+L30
+VVI`V04EQ<g3VoFz1Iik;00
+Z7 OX;C;6.4b;39
+31
+Z8 o-explicit -93 -O0
+Z9 tExplicit 1
+!s100 6]1zMD4M26d6:OE=Q;ZoS1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 4 as4v 0 22 VI`V04EQ<g3VoFz1Iik;00
+l40
+L37
+V44Omlc1RjPM4SgG@142dc3
+R7
+31
+Z10 Mx3 4 ieee 14 std_logic_1164
+Mx2 4 ieee 15 std_logic_arith
+Mx1 4 ieee 18 std_logic_unsigned
+R8
+R9
+!s100 i`Y[:H@jAK8U1D:o:E=G;2
+Etbw
+Z11 w1521564038
+Z12 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z13 DPx4 ieee 16 std_logic_textio 0 22 8YS?iX`WD1REQG`ZRYQGB2
+R2
+R3
+R4
+Z14 8tbw.vhw
+Z15 Ftbw.vhw
+l0
+L27
+VY6RA9cmUT2eh9Wn<Ne4JC3
+!s100 fUiLYQ]4Wi@^6ZBjQ7^hO0
+R7
+31
+R8
+R9
+Atestbench_arch
+R12
+R13
+R2
+R3
+R4
+Z16 DEx4 work 3 tbw 0 22 Y6RA9cmUT2eh9Wn<Ne4JC3
+l47
+L30
+Z17 VC[KkI]1;img<;SEEgka4A1
+Z18 !s100 W3O[BBgNFmbLK^9NJ^^ib0
+R7
+31
+Z19 Mx5 4 ieee 14 std_logic_1164
+Z20 Mx4 4 ieee 15 std_logic_arith
+Z21 Mx3 4 ieee 18 std_logic_unsigned
+Z22 Mx2 4 ieee 16 std_logic_textio
+Z23 Mx1 3 std 6 textio
+R8
+R9
