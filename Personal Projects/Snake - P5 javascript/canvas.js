@@ -1,13 +1,20 @@
 let snake;
 let food;
 let collision;
-let scl = 10;
-let height = window.innerHeight;
-let width = window.innerWidth;
+let scl = 20;
+let height = window.innerHeight - (window.innerHeight/100);
+let width = window.innerWidth - (window.innerWidth/100);
 let cols = Math.floor(width / scl);
 let rows = Math.floor(height / scl);
-// let cols = 60;
-// let rows = 60;
+let isTappedToReset = false;
+let isSwipeToReset = false;
+
+
+document.addEventListener('click',tapped,false);
+document.addEventListener('swiped-left',swiped);
+document.addEventListener('swiped-right',swiped);
+document.addEventListener('swiped-up',swiped);
+document.addEventListener('swiped-down',swiped);
 
 function setup() {
     createCanvas(cols * scl, rows * scl);
@@ -15,12 +22,11 @@ function setup() {
     stroke(255, 0, 0);
     noFill();
     rect(0, 0, cols * scl, rows * scl);
-    frameRate(30);
+    frameRate(8);
     initializeSketch();
 }
 
 function initializeSketch() {
-
     snake = new Snake(scl, cols, rows);
     snake.setCoord(generateRandomPosition());
 
@@ -32,6 +38,33 @@ function initializeSketch() {
 
 function keyPressed() {
     snake.moveSnake(keyCode);
+}
+
+function swiped(event) {
+    // DIRECTION_NONE	    1
+    // DIRECTION_LEFT	    2
+    // DIRECTION_RIGHT	    4
+    // DIRECTION_UP	        8
+    // DIRECTION_DOWN	    16
+    // DIRECTION_HORIZONTAL	6
+    // DIRECTION_VERTICAL	24
+    // DIRECTION_ALL	    30
+    snake.moveSnakeSwipe(event);
+    if(snake.endGame()){
+        isSwipeToReset = true;
+    }else{
+        isSwipeToReset = false;
+    }
+}
+
+function tapped(event) {
+    snake.moveSnakeTap(event);
+    if(snake.endGame()){
+        isTappedToReset = true;
+    }else{
+        isTappedToReset = false;
+    }
+    console.log(event,isTappedToReset);
 }
 
 
@@ -49,7 +82,6 @@ function generateRandomPosition() {
 }
 
 function draw() {
-
     background(0, 0, 0);
     stroke(255, 0, 0);
     noFill();
@@ -67,10 +99,12 @@ function draw() {
         background(255, 0, 0);
         textSize(32);
         fill(57, 255, 20);
-        text('END GAME', (cols / 2 - 10) * scl, rows / 2 * scl);
-        text('Press any key to restart', (cols / 2 - 18) * scl, (rows / 2 + 3) * scl);
+        text('END GAME', (cols/ 2 - 4) * scl, rows / 2 * scl);
+        text('Press any key to restart', (cols / 2 - 8) * scl, (rows / 2 + 3) * scl);
         //noLoop();
-        if (keyIsPressed === true) {
+        if (keyIsPressed === true || isTappedToReset === true || isSwipeToReset === true) {
+            isTappedToReset = false;
+            isSwipeToReset = false;
             initializeSketch();
         }
     }
