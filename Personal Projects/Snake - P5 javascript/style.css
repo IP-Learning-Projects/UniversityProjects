@@ -14,5 +14,5 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    overscroll-behavior: contain;
+    overscroll-behavior: contain; 
 }

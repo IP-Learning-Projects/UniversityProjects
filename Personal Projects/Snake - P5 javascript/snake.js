@@ -19,6 +19,9 @@ class Snake {
         this.xSpeed = x;
         this.ySpeed = y;
     }
+    getDir() {
+        return [this.xSpeed, this.ySpeed];
+    }
 
     getCoords() {
         return [this.col, this.row];

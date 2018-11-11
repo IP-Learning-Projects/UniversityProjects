@@ -8,13 +8,18 @@ let cols = Math.floor(width / scl);
 let rows = Math.floor(height / scl);
 let isTappedToReset = false;
 let isSwipeToReset = false;
-
+let gameEnded = false;
+let soundMovement;
+let soundEat;
+let soundDeath;
 
 document.addEventListener('click',tapped,false);
 document.addEventListener('swiped-left',swiped);
 document.addEventListener('swiped-right',swiped);
 document.addEventListener('swiped-up',swiped);
 document.addEventListener('swiped-down',swiped);
+
+
 
 function setup() {
     createCanvas(cols * scl, rows * scl);
@@ -27,6 +32,10 @@ function setup() {
 }
 
 function initializeSketch() {
+    gameEnded = false;
+    soundMovement = new Audio('./assets/sounds/Movement.ogg');
+    soundEat = new Audio('./assets/sounds/Eat.ogg');
+    soundDeath = new Audio('./assets/sounds/Death.wav');
     snake = new Snake(scl, cols, rows);
     snake.setCoord(generateRandomPosition());
 
@@ -41,14 +50,6 @@ function keyPressed() {
 }
 
 function swiped(event) {
-    // DIRECTION_NONE	    1
-    // DIRECTION_LEFT	    2
-    // DIRECTION_RIGHT	    4
-    // DIRECTION_UP	        8
-    // DIRECTION_DOWN	    16
-    // DIRECTION_HORIZONTAL	6
-    // DIRECTION_VERTICAL	24
-    // DIRECTION_ALL	    30
     snake.moveSnakeSwipe(event);
     if(snake.endGame()){
         isSwipeToReset = true;
@@ -64,7 +65,7 @@ function tapped(event) {
     }else{
         isTappedToReset = false;
     }
-    console.log(event,isTappedToReset);
+    //console.log(event,isTappedToReset);
 }
 
 
@@ -82,6 +83,9 @@ function generateRandomPosition() {
 }
 
 function draw() {
+    if(gameEnded == false && (snake.getDir()[0] != 0 || snake.getDir()[1] != 0)){
+        soundMovement.play();
+    }
     background(0, 0, 0);
     stroke(255, 0, 0);
     noFill();
@@ -89,6 +93,7 @@ function draw() {
 
     if (collision.isObjectCollided(snake.getCoords(), food.getCoords())) {
         snake.grow();
+        soundEat.play();
         food.setCoord(generateRandomPosition());
     }
     food.foodLocation();
@@ -96,6 +101,12 @@ function draw() {
     snake.showSnake();
 
     if (snake.endGame()) {
+        soundMovement.pause();
+        soundEat.pause();
+        if(gameEnded == false){
+            soundDeath.play();
+            gameEnded = true;
+        }
         background(255, 0, 0);
         textSize(32);
         fill(57, 255, 20);
@@ -105,6 +116,7 @@ function draw() {
         if (keyIsPressed === true || isTappedToReset === true || isSwipeToReset === true) {
             isTappedToReset = false;
             isSwipeToReset = false;
+            soundDeath.pause();
             initializeSketch();
         }
     }
